@@ -151,8 +151,8 @@ input {
 
 .header-wrapper {
     background-color: #000;
-    /* background-image: url(https://media.giphy.com/media/zwoRf2Ww6LPk4tCL9m/giphy-downsized-large.gif); */
-    background-image: url(/images/kaabe.svg);
+    background-image: url(https://raw.githubusercontent.com/kaabe-a/halgan_school_landing_website/0e12dcaa56323aa5bb27bb303377f7addab15bcc/images/kaabe1.svg);
+    /* background-image: url(/images/kaabe.svg); */
     width: 100%;
     min-height: 100vh;
     background-position: right;
@@ -767,7 +767,7 @@ textarea {
 
     .header-wrapper {
         background-position: right;
-        background-image: url('/images/kaabe1.svg');
+        background-image: url(https://raw.githubusercontent.com/kaabe-a/halgan_school_landing_website/0e12dcaa56323aa5bb27bb303377f7addab15bcc/images/kaabe1.svg);
     }
 
     .hero__data-info {
