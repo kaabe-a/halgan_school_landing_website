@@ -36,9 +36,9 @@
     --headline-medium-font-size: 1.25rem;
     --headline-small-font-size: 1rem;
 
-    --body-large-font-size: .938rem;
-    --body-medium-font-size: .813rem;
-    --body-small-font-size: .75rem;
+    --body-large-font-size: 0.938rem;
+    --body-medium-font-size: 0.813rem;
+    --body-small-font-size: 0.75rem;
 
     /* // Responsive typography */
     @media screen and (min-width: 968px) {
@@ -49,8 +49,8 @@
         --headline-small-font-size: 1.25rem;
 
         --body-large-font-size: 1rem;
-        --body-medium-font-size: .875rem;
-        --body-small-font-size: .813rem;
+        --body-medium-font-size: 0.875rem;
+        --body-small-font-size: 0.813rem;
     }
 
     /*========== Font weight ==========*/
@@ -89,7 +89,7 @@ img {
 
 body {
     color: var(--on-background);
-    background-color: var(--background);
+    background-color: #eee;
     font-family: var(--body-font);
     line-height: 1.6;
     font-size: var(--body-large-font-size);
@@ -152,7 +152,7 @@ input {
 .header-wrapper {
     background-color: #000;
     /* background-image: url(https://media.giphy.com/media/zwoRf2Ww6LPk4tCL9m/giphy-downsized-large.gif); */
-    background-image: url('/images/kaabe.svg');
+    background-image: url(/images/kaabe.svg);
     width: 100%;
     min-height: 100vh;
     background-position: right;
@@ -338,16 +338,19 @@ input {
 .about__img {
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .about__img-one {
-    width: 80%;
-    box-shadow: 4px 0 4px rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 230px;
+    box-shadow: 4px 0 4px rgba(0, 0, 0, .1);
 }
 
 .about__img-two {
-    width: 90%;
-    box-shadow: 4px 0 4px rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 280px;
+    box-shadow: 4px 0 4px rgba(0, 0, 0, .1);
 }
 
 /* courses section */
@@ -679,10 +682,11 @@ input {
 /*========== Forms Css ==========*/
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
+    /* background-color: red; */
 }
 
 .inputform {
@@ -783,7 +787,6 @@ textarea {
 
     .about__img {
         width: 60%;
-        background-color: var(--primary-color);
     }
 
     .about__img-one {
